@@ -2,9 +2,9 @@
 int main()
 {
     int f = 10;
-    char ques[10] = "I love you";
+    char ques[10] = "I hate pig";
     char ans[100] = "WA";
-    char check[] = "love";
+    char check[] = "hate";
     //char interesting[] = "hate";
     //printf("%c",check[1]);
 
@@ -54,6 +54,14 @@ int main()
 
     for(int i = 0; i < n+2; i++)
     {
+        if(i == 2)
+        {
+            printf(" ");
+        }
+        if(i == n)
+        {
+            printf(" ");
+        }
         printf("%c",ans[i]);
     }
 }

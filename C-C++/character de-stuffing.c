@@ -5,6 +5,11 @@ int main()
     char ques[18] = "WAI lovelove youWA";
     char ans[100];
     char check[] = "love";
+    printf("\nQuestion: ");
+    for(int k = 0; k < 18; k++)
+    {
+        printf("%c",ques[k]);
+    }
 
     int n = 0, count = 0, flag = 0;
     for(int i = 2; i < f; i++)
@@ -48,10 +53,11 @@ int main()
             n++;
         }
     }
-
+    printf("\n\nAnswer: ");
     for(int i = 0; i < n-2; i++)
     {
         printf("%c",ans[i]);
     }
+    printf("\n\n");
 }
 
